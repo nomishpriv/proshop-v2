@@ -14,7 +14,7 @@ const app = express();
 
 connectDB(); // Connect to MonogDB
 
-//bodyParse Middleware
+//bodyParse Middlewaree
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
